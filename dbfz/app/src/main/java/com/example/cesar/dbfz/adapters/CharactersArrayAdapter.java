@@ -24,7 +24,6 @@ import java.util.List;
  */
 
 public class CharactersArrayAdapter extends ArrayAdapter<DbCharacter> {
-    private ArrayList<DbCharacter> arrayList;
     private Context context;
     public CharactersArrayAdapter(Context context, int resource, List<DbCharacter> objects) {
         super(context, resource, objects);
@@ -60,7 +59,8 @@ public class CharactersArrayAdapter extends ArrayAdapter<DbCharacter> {
 
                     }
                 });
-        networkImageView.setImageUrl("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png", imageLoader);
+        networkImageView.setImageUrl(dbCharacter.url, imageLoader);
+        //networkImageView.setImageUrl("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png", imageLoader);
 
 
         return convertView;
