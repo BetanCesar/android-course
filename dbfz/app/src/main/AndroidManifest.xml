@@ -20,7 +20,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".CharactersActivity" />
-        <activity android:name=".CharacterDetailActivity"></activity>
+        <activity android:name=".CharacterDetailActivity" />
+        <activity android:name=".BasicAtacksActivity" />
+        <activity android:name=".CombatMechanicsActivity" />
+        <activity android:name=".ScenariosActivity"></activity>
     </application>
 
 </manifest>

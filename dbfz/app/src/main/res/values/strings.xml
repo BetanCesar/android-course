@@ -2,4 +2,7 @@
     <string name="app_name">DBFz</string>
     <string name="characters">Characters</string>
     <string name="personajes">Personajes</string>
+    <string name="ataques_basicos">Ataques básicos</string>
+    <string name="mecanicas_combate">Mecánicas de Combate</string>
+    <string name="escenarios">Escenarios</string>
 </resources>
